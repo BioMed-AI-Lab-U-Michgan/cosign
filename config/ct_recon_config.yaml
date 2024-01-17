@@ -1,0 +1,17 @@
+conditioning:
+  method: ddnm
+  params:
+
+data:
+  name: ldct_val
+  root: datasets/ldct_val
+
+measurement:
+  operator:
+    name: ct
+    num_angles: 23
+    max_cg_iter: 5
+
+  noise: 
+    name: gaussian
+    sigma: 0.05

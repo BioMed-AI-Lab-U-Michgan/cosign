@@ -1,0 +1,17 @@
+conditioning:
+  method: ddnm
+  params:
+    # enable here if you want to menually set the temperature kappa
+    # kappa: 12.0
+
+data:
+  name: lsun
+  root: datasets/lsun_val
+
+measurement:
+  operator:
+    name: inpainting
+
+  noise: 
+    name: gaussian
+    sigma: 0.05
