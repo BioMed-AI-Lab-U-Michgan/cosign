@@ -1,4 +1,5 @@
 git clone https://github.com/VinAIResearch/blur-kernel-space-exploring bkse
+git clone https://github.com/LeviBorodenko/motionblur motionblur
 
 # Download VAE kernel for nonlinear deblur
 # If the command failed, it means that the link has been expired
