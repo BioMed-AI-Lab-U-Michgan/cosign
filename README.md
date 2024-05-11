@@ -6,7 +6,7 @@ This is the official codebase for CoSIGN: Few-Step Guidance of ConSIstency Model
 
 We conducted our experiments on two datasets: LSUN Bedroom-256 and AAPM LDCT.
 
-For natural image restoration, we train the ControlNet over the consistency model checkpoint pre-trained on LSUN bedroom. The pre-trained checkpoint provided by OpenAI can be downloaded [here](https://openaipublic.blob.core.windows.net/consistency/cd_bedroom256_lpips.pt). For medical image restoration, we trained the diffusion model and ditilled the consistency model from it on our own. The checkpoint of the resulting consistency model can be downloaded [here](https://drive.google.com/file/d/1j17aTgmfyEBqGvkgS1Yy7VAdYK8uLXDg/view?usp=sharing)
+For natural image restoration, we train the ControlNet over the consistency model checkpoint pre-trained on LSUN bedroom. The pre-trained checkpoint provided by OpenAI can be downloaded [here](https://openaipublic.blob.core.windows.net/consistency/cd_bedroom256_lpips.pt). For medical image restoration, we trained the diffusion model and ditilled the consistency model from it on our own. The checkpoint of the resulting consistency model can be downloaded [here](https://drive.google.com/file/d/1j17aTgmfyEBqGvkgS1Yy7VAdYK8uLXDg/view?usp=sharing). Please create a directory named "checkpoint/" and put all the checkpoints under it.
 
 Here are the download links to checkpoints of the ControlNet in the final CoSIGN model:
 
