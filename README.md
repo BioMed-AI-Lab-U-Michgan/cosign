@@ -1,4 +1,4 @@
-# CoSIGN: Few-Step Guidance of ConSIstency Model to Solve General INverse Problems
+# [ECCV 2024] CoSIGN: Few-Step Guidance of ConSIstency Model to Solve General INverse Problems
 
 This is the official codebase for CoSIGN: Few-Step Guidance of ConSIstency Model to Solve General INverse Problems. We built our repository based on  [openai/consistency-models](https://github.com/openai/consistency_models).
 
@@ -106,7 +106,7 @@ Please consider citing this paper if you find the code useful
 @article{cosign,
   title={CoSIGN: Few-Step Guidance of ConSIstency Model to Solve General INverse Problems},
   author={Zhao, Jiankun and Song, Bowen and Shen, Liyue},
-  journal={Coming Soon},
+  journal={European Conference on Computer Vision},
   year={2024}
 }
 ```
